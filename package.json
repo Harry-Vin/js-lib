@@ -1,0 +1,43 @@
+{
+  "name": "@harry-vin/js-lib",
+  "version": "0.0.1",
+  "description": "构建我常用的JavaScript工具包",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "author": {
+    "name": "Harry Vin",
+    "email": "harry.vin.cn@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harry-Wen/bean-sprouts-lib.git"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "dart-sass": "^1.25.0",
+    "del": "6",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.3",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "merge2": "^1.4.1",
+    "postcss": "^8.4.21",
+    "postcss-cssnext": "^3.1.1",
+    "postcss-import": "^15.1.0",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5"
+  }
+}
