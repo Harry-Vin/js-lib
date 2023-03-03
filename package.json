@@ -1,6 +1,6 @@
 {
   "name": "@harry-vin/js-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "构建我常用的JavaScript工具包",
   "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
@@ -14,7 +14,7 @@
     "url": "https://github.com/Harry-Wen/js-lib.git"
   },
   "scripts": {
-    "build": "gulp"
+    "build": "rollup --config"
   },
   "files": [
     "dist"
@@ -23,21 +23,9 @@
     "crypto-js": "^4.1.1"
   },
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
     "@types/crypto-js": "^4.1.1",
-    "dart-sass": "^1.25.0",
-    "del": "6",
-    "gulp": "^4.0.2",
-    "gulp-changed": "^4.0.3",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^9.0.1",
-    "gulp-sass": "^5.1.0",
-    "gulp-typescript": "^6.0.0-alpha.1",
-    "merge2": "^1.4.1",
-    "postcss": "^8.4.21",
-    "postcss-cssnext": "^3.1.1",
-    "postcss-import": "^15.1.0",
-    "sass": "^1.58.3",
+    "tslib": "^2.5.0",
     "typescript": "^4.9.5"
   }
 }

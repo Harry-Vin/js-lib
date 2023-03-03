@@ -1,4 +1,4 @@
-import * as BSLib from './bs-lib'
-export * from './bs-lib'
+import * as JSLib from './lib'
+export * from './lib'
 
-export default BSLib
+export default JSLib
