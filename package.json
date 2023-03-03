@@ -1,6 +1,6 @@
 {
   "name": "@harry-vin/js-lib",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "构建我常用的JavaScript工具包",
   "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
