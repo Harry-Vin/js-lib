@@ -1,9 +1,9 @@
 {
   "name": "@harry-vin/js-lib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "构建我常用的JavaScript工具包",
-  "main": "dist/index.js",
-  "typings": "dist/types/index.d.ts",
+  "main": "build/index.js",
+  "typings": "build/types/index.d.ts",
   "author": {
     "name": "Harry Vin",
     "email": "harry.vin.cn@gmail.com"

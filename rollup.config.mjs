@@ -8,7 +8,7 @@ export default {
         {
             // name: 'index.js',
             format: 'es',
-            dir: 'dist'
+            dir: 'build'
         }
     ],
     plugins: [
