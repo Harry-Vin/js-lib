@@ -1,4 +1,11 @@
-import * as JSLib from './lib'
-export * from './lib'
+import * as Chat from './chat'
+import Encryption from "./encryption";
+import EncryptionCache from "./encryption-cache";
 
-export default JSLib
+export const HChat = Chat;
+export const HEncryption = Encryption;
+export const HEncryptionCache = EncryptionCache;
+
+export default {
+    HChat,HEncryption,HEncryptionCache
+}
